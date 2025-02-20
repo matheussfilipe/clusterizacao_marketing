@@ -6,7 +6,7 @@ encoder = joblib.load('encoder.pkl')
 scaler = joblib.load('scaler.pkl')
 modelo = joblib.load('modelo_kmeans.pkl')
 
-st.title('Grupos de interesse para Markenting')
+st.title('Grupos de interesse para Marketing')
 st.write("""
          Neste projeto, aplicamos o algoritmo de clusterização K-means para identificar e prever agrupamentos de interesses de usuários, com o objetivo de direcionar campanhas de marketing de forma mais eficaz.
          Através dessa análise, conseguimos segmentar o público em bolhas de interesse, permitindo a criação de campanhas personalizadas e mais assertivas, com base nos padrões de comportamento e preferências de cada grupo.
